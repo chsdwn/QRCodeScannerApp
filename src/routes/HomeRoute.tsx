@@ -4,13 +4,10 @@ import {
   NativeStackNavigationOptions,
 } from '@react-navigation/native-stack';
 
+import { QRCode, Scanner, UserDetails } from '@/screens';
 import { HomeStackParamList } from '@/types';
 
 const Stack = createNativeStackNavigator<HomeStackParamList>();
-
-const QRCode = () => <></>;
-const Scanner = () => <></>;
-const UserDetails = () => <></>;
 
 const screenOptions: NativeStackNavigationOptions = {
   headerShown: false,
