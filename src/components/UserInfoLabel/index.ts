@@ -1,0 +1,1 @@
+export { UserInfoLabel } from './UserInfoLabel';
