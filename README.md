@@ -30,6 +30,10 @@
 
 <p align="center">Shows a random user by value of the scanned qr code.</p>
 
+### Demo
+
+https://github.com/chsdwn/QRCodeScannerApp/assets/13810855/64123d90-e82d-4745-bcdd-a184bd10eb61
+
 ### Screenshots
 
 #### QR Code
