@@ -3,3 +3,4 @@ export type {
   HomeStackParamList,
   UserDetailsRouteProp,
 } from './navigation';
+export type { User } from './user';
