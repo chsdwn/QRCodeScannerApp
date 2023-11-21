@@ -1,12 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+
+import { HomeRoute } from '@/routes';
 
 export const App = () => {
   return (
     <NavigationContainer>
       <View style={styles.container}>
-        <Text>QR Code Scanner Demo</Text>
+        <StatusBar />
+        <HomeRoute />
       </View>
     </NavigationContainer>
   );
